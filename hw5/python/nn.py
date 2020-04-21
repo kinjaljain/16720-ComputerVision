@@ -133,7 +133,7 @@ def get_random_batches(x, y, batch_size):
     batches = []
 
     indices = range(x.shape[0])
-    while len(indices) > 0:
+    while len(indices) >= batch_size:
         batch_indices = np.random.choice(indices, batch_size, replace=False)
         batch_x = [x[batch_index] for batch_index in batch_indices]
         batch_y = [y[batch_index] for batch_index in batch_indices]

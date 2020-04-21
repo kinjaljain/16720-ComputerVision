@@ -1,7 +1,6 @@
 import numpy as np
 import scipy.io
 import torch
-import torchvision
 from torch.utils import data
 import torch.nn as nn
 import torch.nn.functional as F
@@ -88,7 +87,7 @@ for epoch in range(num_epochs):
 
     train_loss[epoch] = total_loss / len(train_loader)
     train_acc[epoch] = total_correct / len(train_dataset)
-    print('Epoch: {}\t Training Loss: {:.2f}\t Train Accuracy: {:.2f}'.format(epoch + 1, total_loss, train_acc[epoch]))
+    print('Epoch: {}\t Training Loss: {:.2f}\t Train Accuracy: {:.2f}'.format(epoch + 1, total_loss[epoch], train_acc[epoch]))
 
     model.eval()
     val_loss_ = 0.0
@@ -105,7 +104,7 @@ for epoch in range(num_epochs):
 
     val_loss[epoch] = val_loss_ / len(valid_loader)
     val_acc[epoch] = val_correct / len(valid_dataset)
-    print('Epoch: {}\t Validation Loss: {:.2f}\t Validation Accuracy: {:.2f}'.format(epoch + 1, val_loss_, val_acc[epoch]))
+    print('Epoch: {}\t Validation Loss: {:.2f}\t Validation Accuracy: {:.2f}'.format(epoch + 1, val_loss_[epoch], val_acc[epoch]))
 
     test_loss_ = 0.0
     test_correct = 0
@@ -121,21 +120,42 @@ for epoch in range(num_epochs):
 
     test_loss[epoch] = test_loss_ / len(test_loader)
     test_acc[epoch] = test_correct / len(test_dataset)
-    print('Epoch: {}\t Test Loss: {:.2f}\t Test Accuracy: {:.2f}'.format(epoch + 1, test_loss_, test_acc[epoch]))
+    print('Epoch: {}\t Test Loss: {:.2f}\t Test Accuracy: {:.2f}'.format(epoch + 1, test_loss_[epoch], test_acc[epoch]))
     model.train()
 
 torch.save(model.state_dict(), "q6_1_1_model.pkl")
 torch.save(optimizer.state_dict(), "q6_1_1_optim.pkl")
 
-plt.figure('accuracy')
+plt.figure('Accuracy')
+plt.plot(range(num_epochs), train_acc, color='g')
+plt.legend(['Train Accuracy'])
+plt.xlabel("Epochs")
+plt.ylabel("Accuracy")
+plt.title("Accuracy vs Epochs")
+plt.show()
+
+plt.figure('Accuracy')
 plt.plot(range(num_epochs), train_acc, color='g')
 plt.plot(range(num_epochs), test_acc, color='b')
-plt.legend(['train and test accuracy'])
+plt.legend(['Train Accuracy', 'Test Accuracy'])
+plt.xlabel("Epochs")
+plt.ylabel("Accuracy")
+plt.title("Accuracy vs Epochs")
 plt.show()
 
-plt.figure('loss')
+plt.figure('Cross-Entropy Loss')
+plt.plot(range(num_epochs), train_loss, color='g')
+plt.legend(['Train Loss'])
+plt.xlabel("Epochs")
+plt.ylabel("Cross-Entropy Loss")
+plt.title("Cross-Entropy Loss vs Epochs")
+plt.show()
+
+plt.figure('Cross-Entropy Loss')
 plt.plot(range(num_epochs), train_loss, color='g')
 plt.plot(range(num_epochs), test_loss, color='b')
-plt.legend(['train and test loss'])
+plt.legend(['Train Loss', 'Test Loss'])
+plt.xlabel("Epochs")
+plt.ylabel("Cross-Entropy Loss")
+plt.title("Cross-Entropy Loss vs Epochs")
 plt.show()
-

@@ -20,32 +20,12 @@ def findLetters(image):
     image = skimage.color.rgb2gray(skimage.restoration.denoise_bilateral(image, multichannel=True))
     thresh = skimage.filters.threshold_otsu(image)
     bw = skimage.morphology.closing(image < thresh, skimage.morphology.square(5))
+    # without_border = skimage.segmentation.clear_border(bw)
     label_image = skimage.measure.label(bw, connectivity=2)
     regions = skimage.measure.regionprops(label_image)
-    mean_area = np.mean([x.area for x in regions])
+
     for region in regions:
-        if region.area >= mean_area / 2:
+        if region.area > 200:
             bboxes.append(region.bbox)
 
-    return bboxes, (~bw).astype(np.float)
-
-# CFFFLKARMING
-# DFFPERLEARAING
-# CFCPE5TLEARNING
-# T0D0LIST
-# IMAXEAT0D0LIT
-# ZCHFEK0FF7H8FIRFT
-# 3HING0NT0D0LIST
-# 3RZALIZEY0UHAVEALR6ADT
-# C0MPLFTEDZTHINGI
-# 9REWARDY0URSELFWITH
-# ANAP
-# 2BCDFFG
-# HIIKLMN
-# QPQRSTW
-# VWXYZ
-# 1Z3GS6789J
-# HAIKUSAREGAGY
-# BGTSZMETIMEGTHEYDQNTMAKGSGNGE
-# RBFRIGBRAQR
-
+    return bboxes, (bw).astype(np.float)

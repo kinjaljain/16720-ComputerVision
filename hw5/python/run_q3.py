@@ -15,8 +15,8 @@ max_iters = 50
 # batch_size = 8 -> best so far
 # learning_rate = 2e-3
 # hidden_size = 64
-batch_size = 10
-learning_rate = 1e-2
+batch_size = 8
+learning_rate = 2.5e-3
 hidden_size = 64
 
 params = {}
@@ -122,6 +122,9 @@ for itr in range(max_iters):
     if itr % 2 == 0:
         print("itr: {:02d} \t test loss: {:.2f} \t acc : {:.2f}".format(itr,total_loss_t,total_acc_t))
 
+print('Validation accuracy: ', valid_acc[-1])
+print('Test accuracy: ', test_acc[-1])
+
 import matplotlib.pyplot as plt
 plt.figure('Accuracy')
 plt.plot(range(max_iters), train_acc, color='g')
@@ -141,8 +144,7 @@ plt.ylabel('Cross-Entropy Loss')
 plt.legend(['Train', 'Valid'])
 plt.show()
 
-print('Validation accuracy: ', valid_acc[-1])
-print('Test accuracy: ', test_acc[-1])
+
 if False: # view the data
     for crop in xb:
         import matplotlib.pyplot as plt
