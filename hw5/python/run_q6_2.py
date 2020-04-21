@@ -12,12 +12,12 @@ num_workers = 8
 cuda = torch.cuda.is_available()
 device = torch.device("cuda" if cuda else "cpu")
 
+# centercrop 224
 preprocess = transforms.Compose([
     transforms.Scale(256),
     transforms.RandomSizedCrop(224),
     transforms.RandomHorizontalFlip(),
     transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
   ])
 
 train_dir = '../data/oxford-flowers17/train'
@@ -29,10 +29,10 @@ model = torchvision.models.squeezenet1_1(pretrained=True)
 model.to(device)
 
 last_layer = nn.Conv2d(512, 17, kernel_size=2)
-model.classifier = nn.Sequential(nn.Dropout(p=0.4), last_layer, nn.ReLU(inplace=True),
-                                 nn.AdaptiveAvgPool2d((2, 2)))
-model.type(torch.FloatTensor)
-criterion = nn.CrossEntropyLoss().type(torch.FloatTensor)
+model.classifier = nn.Sequential(nn.Dropout(p=0.5), last_layer, nn.ReLU(inplace=True),
+                                 nn.AdaptiveAvgPool2d((1, 1)))
+
+criterion = nn.CrossEntropyLoss()
 
 # only set classifier params to have updated params since we want to fine tuning only that layer
 for param in model.parameters():
@@ -41,7 +41,9 @@ for param in model.classifier.parameters():
     param.requires_grad = True
 
 learning_rate = 1e-3
+# optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 optimizer = torch.optim.Adam(model.classifier.parameters(), lr=learning_rate)
+
 num_epochs = 25
 train_loss = np.zeros(num_epochs)
 train_acc = np.zeros(num_epochs)
@@ -62,9 +64,11 @@ for epoch in range(num_epochs):
         pred = torch.max(y_pred, dim=1)[1]
         total_correct += torch.sum(torch.eq(pred, y)).item()
 
-    train_loss[epoch] = total_loss
+    train_loss[epoch] = total_loss / len(train_loader)
     train_acc[epoch] = total_correct / len(train_dataset)
-    print('Epoch: {}\t Training Loss: {:.2f}\t Train Accuracy: {:.2f}'.format(epoch + 1, total_loss, train_acc[epoch]))
+    print('Epoch: {}\t Training Loss: {:.2f}\t Train Accuracy: {:.2f}'.format(epoch + 1,
+                                                                              train_loss[epoch],
+                                                                              train_acc[epoch]))
 
 
 torch.save(model.state_dict(), "q6_2_model.pkl")

@@ -13,12 +13,12 @@ valid_x = valid_data['valid_data']
 
 max_iters = 100
 # pick a batch size, learning rate
-batch_size = 36 
+batch_size = 18
 learning_rate = 3e-5
 hidden_size = 32
 lr_rate = 20
 momentum = 0.9
-batches = get_random_batches(train_x,np.ones((train_x.shape[0],1)),batch_size)
+batches = get_random_batches(train_x, np.ones((train_x.shape[0],1)), batch_size)
 batch_num = len(batches)
 
 params = Counter()
@@ -63,7 +63,7 @@ for itr in range(max_iters):
         out = forward(h3, params, 'output', sigmoid)
 
         # loss
-        total_loss += np.sum(np.square(xb - out))
+        total_loss += np.sum(np.mean(np.square(xb - out), axis=0))
 
         # backward
         delta1 = -2 * (xb-out)
@@ -79,11 +79,14 @@ for itr in range(max_iters):
             params['m_' + k] = momentum * params['m_' + k] - learning_rate * params['grad_' + k]
             params[k] += params['m_' + k]
 
+    total_loss /= batch_num
+    train_loss.append(total_loss)
+
     if itr % 2 == 0:
         print("itr: {:02d} \t loss: {:.2f}".format(itr, total_loss))
     if itr % lr_rate == lr_rate-1:
         learning_rate *= 0.9
-    train_loss.append(total_loss)
+
 
 # plot training loss curve
 plt.figure()
@@ -102,7 +105,7 @@ h1 = forward(valid_x, params, 'layer1', relu)
 h2 = forward(h1, params, 'hidden_layer1', relu)
 h3 = forward(h2, params, 'hidden_layer2', relu)
 out = forward(h3, params, 'output', sigmoid)
-selected_inds = [0, 20, 500, 520, 1720, 1740, 2000, 2020, 3400, 3420]
+selected_inds = [0, 20, 400, 420, 1020, 1040, 2000, 2020, 3400, 3420]
 for i in selected_inds:
     plt.subplot(2, 1, 1)
     plt.imshow(valid_x[i].reshape(32, 32).T)

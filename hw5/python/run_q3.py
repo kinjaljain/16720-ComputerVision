@@ -12,11 +12,8 @@ test_x, test_y = test_data['test_data'], test_data['test_labels']
 
 max_iters = 50
 # pick a batch size, learning rate
-# batch_size = 8 -> best so far
-# learning_rate = 2e-3
-# hidden_size = 64
 batch_size = 8
-learning_rate = 2.5e-3
+learning_rate = 1e-2
 hidden_size = 64
 
 params = {}
@@ -27,6 +24,16 @@ initialize_weights(1024, 64, params, 'layer1')
 initialize_weights(64, 36, params, 'output')
 assert (params['Wlayer1'].shape == (1024, 64))
 assert (params['blayer1'].shape == (64,))
+
+import matplotlib.pyplot as plt
+from mpl_toolkits.axes_grid1 import ImageGrid
+
+weights_init = params['Wlayer1']
+fig1 = plt.figure()
+grid = ImageGrid(fig1, 111, nrows_ncols=(8,8), axes_pad=0.0)
+for i in range(weights_init.shape[1]):
+    grid[i].imshow(weights_init[:,i].reshape((32, 32)))
+plt.show()
 
 
 # with default settings, you should get loss < 150 and accuracy > 80%
@@ -125,7 +132,7 @@ for itr in range(max_iters):
 print('Validation accuracy: ', valid_acc[-1])
 print('Test accuracy: ', test_acc[-1])
 
-import matplotlib.pyplot as plt
+
 plt.figure('Accuracy')
 plt.plot(range(max_iters), train_acc, color='g')
 plt.plot(range(max_iters), valid_acc, color='b')
@@ -156,47 +163,25 @@ with open('q3_weights.pickle', 'wb') as handle:
     pickle.dump(saved_params, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 # Q3.3
-from mpl_toolkits.axes_grid1 import ImageGrid
-
-# visualize weights here
-with open('q3_weights.pickle', 'rb') as handle:
-    data = pickle.load(handle)
-    params['Wlayer1'] = data['Wlayer1']
-    params['blayer1'] = data['blayer1']
-    params['Woutput'] = data['Woutput']
-    params['boutput'] = data['boutput']
-fig = plt.figure()
-grid = ImageGrid(fig, 111,  nrows_ncols=(8, 8))
-
-for i in range(hidden_size):
-    grid[i].imshow(np.reshape(params['Wlayer1'][:, i], (32, 32)))  # The AxesGrid object work as a list of axes.
-    plt.axis('off')
-
+# visualize updated weights
+weights_post = saved_params['Wlayer1']
+fig1 = plt.figure()
+grid = ImageGrid(fig1, 111, nrows_ncols=(8,8), axes_pad=0.0)
+for i in range(weights_init.shape[1]):
+    grid[i].imshow(weights_init[:, i].reshape((32, 32)))
 plt.show()
 
 # Q3.4
-confusion_matrix = np.zeros((train_y.shape[1],train_y.shape[1]))
+confusion_matrix = np.zeros((test_y.shape[1], test_y.shape[1]))
 
-# compute comfusion matrix here
-h1 = forward(train_x, params, 'layer1')
-train_probs = forward(h1, params, 'output', softmax)
-# train_y = train_y.astype(int)
-max_prob = np.max(train_probs, axis=1)
-pred_y = (train_probs == np.expand_dims(max_prob, axis=1)).astype(int)
-assert train_y.shape == pred_y.shape
-same_max_prob = np.where(np.count_nonzero(pred_y, axis=1) > 1)[0]
-for i in range(same_max_prob.shape[0]):
-    same_indices = np.where(pred_y[i, :] == np.max(pred_y[i, :]))[0]
-    all_except_one = same_indices[1:]
-    pred_y[i, all_except_one] = False
+# compute confusion matrix here
+h1 = forward(test_x, saved_params, 'layer1')
+probs = forward(h1, saved_params, 'output', softmax)
+test_true = np.argmax(test_y, axis=1)
+test_pred = np.argmax(probs, axis=1)
 
-
-true_y_train = [np.where(train_y[i, :] == 1)[0].item() for i in range(train_y.shape[0])]
-pred_y_train = [np.where(pred_y[i, :] == 1)[0].item() for i in range(pred_y.shape[0])]
-
-for i, j in zip(true_y_train, pred_y_train):
-    confusion_matrix[i][j] += 1
-
+for i in range(test_y.shape[0]):
+    confusion_matrix[test_true[i], test_pred[i]] += 1
 
 import string
 plt.imshow(confusion_matrix, interpolation='nearest')

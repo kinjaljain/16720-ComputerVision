@@ -29,12 +29,12 @@ test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, s
 class MyCNNNetwork(nn.Module):
     def __init__(self, output_size):
         super(MyCNNNetwork, self).__init__()
-        self.layer_1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1)
-        self.layer_2 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1)
-        self.layer_3 = nn.Conv2d(in_channels=64, out_channels=16, kernel_size=3, padding=1)
-        self.linear1 = nn.Linear(256, 128)
-        self.dp1 = nn.Dropout(0.1)
-        self.linear2 = nn.Linear(128, output_size)
+        self.layer_1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=4, padding=1)
+        self.layer_2 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=4, padding=1)
+        self.layer_3 = nn.Conv2d(in_channels=64, out_channels=16, kernel_size=4, padding=1)
+        self.linear1 = nn.Linear(144, 50)
+        self.dp1 = nn.Dropout(0.05)
+        self.linear2 = nn.Linear(50, output_size)
 
     def forward(self, x):
         x = self.layer_1(x)
