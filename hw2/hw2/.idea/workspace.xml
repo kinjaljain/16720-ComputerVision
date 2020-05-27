@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3d2beed-4adb-4ae3-91d4-f054106a01df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XtRx1Nbkjpcg5yROH2ZfvANp75" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/ec" />
+      <recent name="$PROJECT_DIR$/results" />
+      <recent name="$PROJECT_DIR$/python/kungfu" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.panaroma (1)">
+    <configuration name="HarryPotterize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/HarryPotterize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="briefRotTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/briefRotTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="panaroma (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ec/panaroma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="panaroma" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/panaroma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q2_1_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/q2_1_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.panaroma (1)" />
+        <item itemvalue="Python.briefRotTest" />
+        <item itemvalue="Python.panaroma" />
+        <item itemvalue="Python.HarryPotterize" />
+        <item itemvalue="Python.q2_1_4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3d2beed-4adb-4ae3-91d4-f054106a01df" name="Default Changelist" comment="" />
+      <created>1581863646567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581863646567</updated>
+      <workItem from="1581863649657" duration="10694000" />
+      <workItem from="1581959877308" duration="45230000" />
+      <workItem from="1582136978059" duration="47358000" />
+      <workItem from="1582248466983" duration="3057000" />
+      <workItem from="1582476418306" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="436" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582226096307">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="436" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1582226096307" />
+    <state x="360" y="265" width="474" height="484" key="#xdebugger.evaluate" timestamp="1582210556605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="360" y="265" width="474" height="484" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582210556605" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582156179703">
+      <screen x="47" y="23" width="1393" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1582155474377" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/47.23.1393.877@47.23.1393.877" timestamp="1582156179703" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582236541846">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582236541846" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/50.23.1390.877@50.23.1390.877" timestamp="1582084884785" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582236541845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582236541845" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/50.23.1390.877@50.23.1390.877" timestamp="1582084884784" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582236541845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582236541845" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/50.23.1390.877@50.23.1390.877" timestamp="1582084884784" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582236541846">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582236541846" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/50.23.1390.877@50.23.1390.877" timestamp="1582084884785" />
+    <state width="1398" height="200" key="GridCell.Tab.1.bottom" timestamp="1582236541829">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582236541829" />
+    <state width="1398" height="200" key="GridCell.Tab.1.bottom/45.23.1395.877@45.23.1395.877" timestamp="1582225162460" />
+    <state width="1398" height="200" key="GridCell.Tab.1.bottom/47.23.1393.877@47.23.1393.877" timestamp="1582179172271" />
+    <state width="1398" height="200" key="GridCell.Tab.1.bottom/50.23.1390.877@50.23.1390.877" timestamp="1582120833216" />
+    <state width="1398" height="200" key="GridCell.Tab.1.center" timestamp="1582236541828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582236541828" />
+    <state width="1398" height="200" key="GridCell.Tab.1.center/45.23.1395.877@45.23.1395.877" timestamp="1582225162459" />
+    <state width="1398" height="200" key="GridCell.Tab.1.center/47.23.1393.877@47.23.1393.877" timestamp="1582179172270" />
+    <state width="1398" height="200" key="GridCell.Tab.1.center/50.23.1390.877@50.23.1390.877" timestamp="1582120833215" />
+    <state width="1398" height="200" key="GridCell.Tab.1.left" timestamp="1582236541828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582236541828" />
+    <state width="1398" height="200" key="GridCell.Tab.1.left/45.23.1395.877@45.23.1395.877" timestamp="1582225162458" />
+    <state width="1398" height="200" key="GridCell.Tab.1.left/47.23.1393.877@47.23.1393.877" timestamp="1582179172269" />
+    <state width="1398" height="200" key="GridCell.Tab.1.left/50.23.1390.877@50.23.1390.877" timestamp="1582120833214" />
+    <state width="1398" height="200" key="GridCell.Tab.1.right" timestamp="1582236541829">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582236541829" />
+    <state width="1398" height="200" key="GridCell.Tab.1.right/45.23.1395.877@45.23.1395.877" timestamp="1582225162459" />
+    <state width="1398" height="200" key="GridCell.Tab.1.right/47.23.1393.877@47.23.1393.877" timestamp="1582179172271" />
+    <state width="1398" height="200" key="GridCell.Tab.1.right/50.23.1390.877@50.23.1390.877" timestamp="1582120833215" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582173755412">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1582136394304" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/44.23.1396.877@44.23.1396.877" timestamp="1582173755412" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/47.23.1393.877@47.23.1393.877" timestamp="1582156179703" />
+    <state x="52" y="79" width="1285" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582179327396">
+      <screen x="47" y="23" width="1393" height="877" />
+    </state>
+    <state x="52" y="79" width="1285" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog/47.23.1393.877@47.23.1393.877" timestamp="1582179327396" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/50.23.1390.877@50.23.1390.877" timestamp="1582072861508" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582136982320">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582136982320" />
+    <state x="269" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582134041043">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="269" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1582134041043" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/loadVid.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/loadVid.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="bestH2to1[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hw2$HarryPotterize.coverage" NAME="HarryPotterize Coverage Results" MODIFIED="1582212838575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/hw2$briefRotTest.coverage" NAME="briefRotTest Coverage Results" MODIFIED="1582226108097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/hw2$panaroma.coverage" NAME="panaroma Coverage Results" MODIFIED="1582219003875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/hw2$panaroma__1_.coverage" NAME="panaroma (1) Coverage Results" MODIFIED="1582226205501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ec" />
+    <SUITE FILE_PATH="coverage/hw2$planarH.coverage" NAME="planarH Coverage Results" MODIFIED="1581995117207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/hw2$ar.coverage" NAME="ar Coverage Results" MODIFIED="1582179378611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/hw2$q2_1_4.coverage" NAME="q2_1_4 Coverage Results" MODIFIED="1582207374057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+  </component>
+</project>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdddc8c9-4986-4af4-86f6-4cc45d2f9be2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="c93e1ba8-7ac2-4484-a130-9c8bdf05eeb2" />
+  <component name="ProjectId" id="1Yv0VEZjboJdqiYV9Bvz9MdyH0f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.submission">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="hw4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="findM2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/findM2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="submission" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/submission.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/visualize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.submission" />
+        <item itemvalue="Python.visualize" />
+        <item itemvalue="Python.findM2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdddc8c9-4986-4af4-86f6-4cc45d2f9be2" name="Default Changelist" comment="" />
+      <created>1583807781599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583807781599</updated>
+      <workItem from="1583807784238" duration="375000" />
+      <workItem from="1583975316592" duration="1495000" />
+      <workItem from="1583982457262" duration="2134000" />
+      <workItem from="1584073396699" duration="28544000" />
+      <workItem from="1584933708778" duration="1878000" />
+      <workItem from="1585080791088" duration="3217000" />
+      <workItem from="1585084988950" duration="1272000" />
+      <workItem from="1585325607768" duration="5457000" />
+      <workItem from="1585361175894" duration="4730000" />
+      <workItem from="1585485692295" duration="2104000" />
+      <workItem from="1585495291865" duration="9737000" />
+      <workItem from="1585693619171" duration="142000" />
+      <workItem from="1585694073915" duration="1085000" />
+      <workItem from="1585745323118" duration="692000" />
+      <workItem from="1585873372185" duration="7514000" />
+      <workItem from="1585949366094" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585487093947">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585487093947" />
+    <state x="408" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584307186630">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1584307186630" />
+    <state x="829" y="368" width="474" height="455" key="#xdebugger.evaluate" timestamp="1584465465277">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="829" y="368" width="474" height="455" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1584465465277" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1585693588497">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585511262407" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1585693588497" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1585693588496">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585511262406" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1585693588496" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1585693588496">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585511262405" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1585693588496" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1585693588497">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585511262407" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1585693588497" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585693588500">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585495122375" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/44.23.1396.877@44.23.1396.877" timestamp="1585693588500" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/50.23.1390.877@50.23.1390.877" timestamp="1584308087911" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585693588499">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585495122374" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/44.23.1396.877@44.23.1396.877" timestamp="1585693588499" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/50.23.1390.877@50.23.1390.877" timestamp="1584308087910" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585693588498">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585495122374" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/44.23.1396.877@44.23.1396.877" timestamp="1585693588498" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/50.23.1390.877@50.23.1390.877" timestamp="1584308087906" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585693588499">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585495122375" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/44.23.1396.877@44.23.1396.877" timestamp="1585693588499" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/50.23.1390.877@50.23.1390.877" timestamp="1584308087910" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1583982408146">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1583982408146" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584380661841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1584380661841" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585745324107">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585745324107" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/submission.py</url>
+          <line>221</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/submission.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/submission.py</url>
+          <line>454</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/submission.py</url>
+          <line>405</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hw4$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1584414229501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/hw4$submission.coverage" NAME="submission Coverage Results" MODIFIED="1585511262254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/" />
+    <SUITE FILE_PATH="coverage/hw4$findM2.coverage" NAME="findM2 Coverage Results" MODIFIED="1584306870393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+  </component>
+</project>
